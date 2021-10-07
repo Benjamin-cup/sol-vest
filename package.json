@@ -1,0 +1,25 @@
+{
+  "name": "sol-vesting",
+  "version": "0.1.0",
+  "description": "Lightweight Solana program to vest native SOL tokens.",
+  "scripts": {
+    "build": "cargo build-bpf --manifest-path=./program/Cargo.toml --bpf-out-dir=dist/program"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackrobsonalpha/sol-vesting.git"
+  },
+  "keywords": [
+    "sol",
+    "vesting",
+    "solana",
+    "smart",
+    "contracts"
+  ],
+  "author": "jackrobsonalpha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackrobsonalpha/sol-vesting/issues"
+  },
+  "homepage": "https://github.com/jackrobsonalpha/sol-vesting#readme"
+}
