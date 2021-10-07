@@ -1,15 +1,3 @@
-### Environment Setup
-1. Install Rust from https://rustup.rs/
-2. Install Solana from https://docs.solana.com/cli/install-solana-cli-tools#use-solanas-install-tool
+Lightweight Solana program to vest native SOL tokens in both non-integer and integer amounts.
 
-### Build and test for program compiled natively
-```
-$ cargo build
-$ cargo test
-```
-
-### Build and test the program compiled for BPF
-```
-$ cargo build-bpf
-$ cargo test-bpf
-```
+Credit due to https://github.com/Bonfida/token-vesting/ as lot of their code has been adopted. 
